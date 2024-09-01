@@ -31,8 +31,8 @@ export default function Products() {
           Add Product
         </Link>
       </div>
-      <div className="p-2">
-        <table className="w-full mt-5 table-auto">
+      <div className="p-2 overflow-x-auto">
+        <table className="w-full mt-5 table-auto ">
           <thead className="bg-slate-800 text-white">
             <tr>
               <th className="p-2">Product</th>
